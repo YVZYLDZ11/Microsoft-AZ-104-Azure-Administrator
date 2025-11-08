@@ -1,0 +1,40 @@
+Lab 02a - Manage Subscriptions and RBAC
+
+## Lab introduction
+
+In this lab, you learn about role-based access control. You learn how to use permissions and scopes to control what actions identities can and cannot perform. You also learn how to make subscription management easier using management groups.
+
+**Architecture diagram**
+
+https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/media/az104-lab02a-architecture.png
+
+## Key takeaways
+
+Congratulations on completing the lab. Here are the main takeaways for this lab.
+
+- Management groups are used to logically organize subscriptions.
+- The built-in root management group includes all the management groups and subscriptions.
+- Azure has many built-in roles. You can assign these roles to control access to resources.
+- You can create new roles or customize existing roles.
+- Roles are defined in a JSON formatted file and include *Actions*, *NotActions*, and *AssignableScopes*.
+- You can use the Activity Log to monitor role assignments.
+
+## **Lab 02b - Manage Governance via Azure Policy**
+
+## Lab introduction
+
+In this lab, you learn how to implement your organization’s governance plans. You learn how Azure policies can ensure operational decisions are enforced across the organization. You learn how to use resource tagging to improve reporting.
+
+## Architecture diagram
+
+https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/media/az104-lab02b-architecture.png
+
+## Key takeaways
+
+Congratulations on completing the lab. Here are the main takeaways for this lab.
+
+- Azure tags are metadata that consists of a key-value pair. Tags describe a particular resource in your environment. In particular, tagging in Azure enables you to label your resources in a logical manner.
+- Azure Policy establishes conventions for resources. Policy definitions describe resource compliance conditions and the effect to take if a condition is met. A condition compares a resource property field or a value to a required value. There are many built-in policy definitions and you can customize the policies.
+- The Azure Policy remediation task feature is used to bring resources into compliance based on a definition and assignment. Resources that are non-compliant to a modify or deployIfNotExist definition assignment, can be brought into compliance using a remediation task.
+- You can configure a resource lock on a subscription, resource group, or resource. The lock can protect a resource from accidental user deletions and modifications. The lock overrides any user permissions.
+- Azure Policy is pre-deployment security practice. RBAC and resource locks are post-deployment security practice.
