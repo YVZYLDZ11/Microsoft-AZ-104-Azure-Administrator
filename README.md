@@ -50,6 +50,3 @@ Below is the list of hands-on labs covering the official exam objectives.
 
 ## 👨‍💻 Author
 YAVUZ YILDIZ Aspiring Cloud Architect | Azure Specialist https://www.linkedin.com/in/yavuzyildizyz/
-**[Senin Adın]**
-*Aspiring Cloud Architect | Azure Specialist*
-[LinkedIn Profil Linkin]
